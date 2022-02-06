@@ -1,3 +1,8 @@
+label {
+    font-family: "Quicksand", Arial, sans-serif;
+    padding: 5px;
+}
+
 .sidenav {
     text-align: center;
     height: 100%;  
@@ -6,7 +11,7 @@
     z-index: 1; 
     top: 0; 
     left: 0; 
-    background-color: grey; 
+    background-color: #f2f3f7; 
     transition: .5s ease; 
     overflow-x: hidden; 
     padding-top: 20px; 
@@ -26,10 +31,6 @@
     color: black;
 }
 
-.listitem:hover {
-    color: blue; 
-}
-
 .profileImage {
     border-radius: 50%; 
     width: 200px;
@@ -46,5 +47,14 @@
 
 .email, .github, .linkedin{
     color: black;
-    font-size: 25px;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.listitem:hover, .email:hover, .github:hover, .linkedin:hover {
+    color: #2c98f0; 
+}
+
+.selected {
+    color: #2c98f0; 
 }

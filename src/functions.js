@@ -1,7 +1,18 @@
 export const onClickList = function(e) {
-    // to remove Selected class
-    //document.getElementsByClassName("selected");
+    _removeSelected(e.currentTarget);
+    const my_element = document.getElementById(e.currentTarget.textContent.toLowerCase());
+    my_element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+    });
+}
 
-    // add selected class to new clicked element
-    e.currentTarget.text = "changed";
+export const waypointScroller = function(id) {
+    _removeSelected(document.getElementById(id));
+};
+
+function _removeSelected(val) {
+    document.getElementsByClassName("selected")[0].classList.remove("selected");
+    val.classList.add("selected");
 }
