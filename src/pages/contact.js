@@ -11,6 +11,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <section id="contact">
+                <br/>
                 <Waypoint
                     onEnter={() => {waypointScroller("contact_nav")}}
                 >

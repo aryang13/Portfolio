@@ -1,10 +1,14 @@
 import React from 'react';
 import "./css/SideNav.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import profileImage from "./profile_img.jpg";
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiLinkedinBoxFill } from 'react-icons/ri';
 import { GrGithub } from 'react-icons/gr';
-import { onClickList } from "./functions";
+import { BsPersonFill } from 'react-icons/bs';
+import { FiTrendingUp } from 'react-icons/fi'
+import { MdWeb, MdOutlineContactPage } from 'react-icons/md';
+import { onClickList, clickHandler } from "./functions";
 import SmoothScroll from "smooth-scroll";
 
 new SmoothScroll('.navbar a[href*="#"]', {
@@ -13,19 +17,39 @@ new SmoothScroll('.navbar a[href*="#"]', {
 
 function SideNav() {
     return (
-        <div className="sidenav">
+        <div className="sidenav d-flex flex-column flex-shrink-0 p-3 bg-light">
             <div className="intro">
-                <img src={profileImage} className="profileImage" />
-                <h1>Aryan Gandhi</h1>
-                <p>UBC Computer Engineering Student</p>
+                <h1 className="name" onClick={() => {clickHandler("home")}}>Aryan Gandhi</h1>
+                <p className="info">UBC Computer Engineering Student</p>
             </div>
-            <div className="content navbar">
-                <label id="about_nav" className="listitem selected" onClick={onClickList.bind(this)}>About</label>
-                <label id="experience_nav" className="listitem" onClick={onClickList.bind(this)}>Experience</label>
-                <label id="projects_nav" className="listitem" onClick={onClickList.bind(this)}>Projects</label>
-                <label id="contact_nav" className="listitem" onClick={onClickList.bind(this)}>Contact</label>
-            </div>
-            <div className="contacts">
+            <hr/>
+            <ul className="content navbar menu nav nav-pills flex-column mb-auto">
+                <div className="nav-item">
+                    <div id="about_nav" className="listitem" onClick={onClickList.bind(this)}>
+                        <BsPersonFill className="icon"/>
+                        <label>About</label>
+                    </div> 
+                </div>
+                <div className="nav-item">
+                    <div id="experience_nav" className="listitem" onClick={onClickList.bind(this)} >
+                        <FiTrendingUp className="icon"/>
+                        <label>Experience</label>
+                    </div> 
+                </div>
+                <div className="nav-item">
+                    <div  id="projects_nav" className="listitem" onClick={onClickList.bind(this)}>
+                        <MdWeb className="icon"/>
+                        <label>Projects</label>
+                    </div> 
+                </div>
+                <div className="nav-item">
+                    <div id="contact_nav" className="listitem" onClick={onClickList.bind(this)}>
+                        <MdOutlineContactPage className="icon"/>
+                        <label>Contact</label>
+                    </div> 
+                </div>
+            </ul>
+            <div className="contacts dropdown">
                 <a href="mailto: gandhi.aryan1310@gmail.com" className="email">
                     <HiOutlineMail />   
                 </a>
@@ -44,10 +68,7 @@ export default SideNav;
 
 /** 
  * TODOS:
- *      - work on onClick Handler for options
- *      - when you scroll changes the side bar according to which pages you are on
+ *      - Separate navbar components into separate file
  *      - change font of text
  *      - clean up UI (figure out colors and spacing, etc.)
- *      - figure out how to switch to new content without adding to web path
- *              - data-nav-section and data-section
 */

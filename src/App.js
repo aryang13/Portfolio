@@ -7,7 +7,7 @@ export default function App() {
 
   useEffect(() => {
     if (performance.navigation.type === 1) {
-      document.getElementById("about").scrollIntoView({
+      document.getElementById("home").scrollIntoView({
         behavior: "smooth",
         block: "start",
         inline: "nearest"

@@ -11,6 +11,7 @@ export default class Projects extends React.Component {
     render() {
         return (
             <section id="projects">
+                <br/>
                 <Waypoint
                     onEnter={() => {waypointScroller("projects_nav")}}
                 >

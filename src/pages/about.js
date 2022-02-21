@@ -11,6 +11,7 @@ export default class About extends React.Component {
     render() {
         return (
             <section id="about">
+                <br/>
                 <Waypoint
                     onEnter={() => {waypointScroller("about_nav")}}
                 >

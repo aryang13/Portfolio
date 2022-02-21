@@ -1,5 +1,5 @@
 export const onClickList = function(e) {
-    _removeSelected(e.currentTarget);
+    relocateSelected(e.currentTarget);
     const my_element = document.getElementById(e.currentTarget.textContent.toLowerCase());
     my_element.scrollIntoView({
         behavior: "smooth",
@@ -9,10 +9,26 @@ export const onClickList = function(e) {
 }
 
 export const waypointScroller = function(id) {
-    _removeSelected(document.getElementById(id));
+    relocateSelected(document.getElementById(id));
 };
 
-function _removeSelected(val) {
-    document.getElementsByClassName("selected")[0].classList.remove("selected");
+export const removeSelected = function() {
+    const selectedElement = document.getElementsByClassName("selected")[0];
+    if(selectedElement) {
+        selectedElement.classList.remove("selected");
+    }
+}
+
+export const clickHandler = function(id) {
+    const my_element = document.getElementById(id);
+    my_element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+    });
+}
+
+export const relocateSelected = function(val) {
+    removeSelected();
     val.classList.add("selected");
 }
