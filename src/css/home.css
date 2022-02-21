@@ -47,17 +47,17 @@ span::before {
 
 @keyframes animate {
 
-    0% {
+    25% {
         content: "hardworker";
         animation: animate infinite 7s;
     }
 
-    25% {
+    50% {
         content: "pioneer";
         animation: animate infinite 7s;
     }
 
-    50% { 
+    75% { 
         content: "problem solver";
         animation: animate infinite 7s;
     }
