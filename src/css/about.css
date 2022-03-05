@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.about-title {
+    padding: 2%;
+    background-color: #2c98f0;
+}
+
+.about-text {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", serif;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.about-info {
+    border-left: 3px solid lightblue;
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+
+.about-skills {
+    padding-top: 2%;
+}

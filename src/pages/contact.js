@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/pages.css';
+import '../css/contact.css';
 import { Waypoint } from 'react-waypoint';
 import { waypointScroller } from '../functions'
 
@@ -10,12 +10,12 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <section id="contact">
-                <br/>
+            <section id="contact" className="contact">
+                <h2 className="contact-title">CONTACT</h2>
                 <Waypoint
                     onEnter={() => {waypointScroller("contact_nav")}}
                 >
-                    <h1>CONTACT</h1>
+                    <div></div>
                 </Waypoint>
             </section>
         );

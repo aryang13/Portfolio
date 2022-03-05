@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/pages.css';
 import '../css/home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoDocumentTextOutline } from 'react-icons/io5';

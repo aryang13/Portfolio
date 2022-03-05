@@ -48,6 +48,7 @@ hr {
 .name {
     cursor: pointer;
     padding-top: 25px;
+    color: #2c98f0;
 }
 
 .info {

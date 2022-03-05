@@ -1,6 +1,12 @@
 .home { 
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%
 }
 
 .homeContainer {
@@ -14,7 +20,7 @@
 .image {
     width: 50%;
     height: 100%;
-    flex: 1
+    flex: 1.5
 }
 
 .rightPanel {
@@ -42,7 +48,7 @@
 span::before {
     content: "developer";
     animation: animate infinite 7s;
-    color: red;
+    color: #2c98f0;
 }
 
 @keyframes animate {
@@ -77,6 +83,7 @@ span::before {
 .view {
     padding: 0%;
     font-size: 15px;
+    text-align: center;
 }
 
 .arrow {

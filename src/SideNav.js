@@ -1,7 +1,6 @@
 import React from 'react';
-import "./css/SideNav.css";
+import "./css/sidenav.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import profileImage from "./profile_img.jpg";
 import { HiOutlineMail } from 'react-icons/hi';
 import { RiLinkedinBoxFill } from 'react-icons/ri';
 import { GrGithub } from 'react-icons/gr';

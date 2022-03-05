@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/pages.css';
+import '../css/projects.css';
 import { Waypoint } from 'react-waypoint'
 import { waypointScroller } from '../functions';
 
@@ -10,12 +10,12 @@ export default class Projects extends React.Component {
 
     render() {
         return (
-            <section id="projects">
-                <br/>
+            <section id="projects" className="projects">
+                <h2 className="projects-title">PROJECTS</h2>
                 <Waypoint
                     onEnter={() => {waypointScroller("projects_nav")}}
                 >
-                    <h1>PROJECTS</h1>
+                    <div></div>
                 </Waypoint>
             </section>
         );
