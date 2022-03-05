@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d559b057.chunk.css",
-    "main.js": "/Portfolio/static/js/main.57c36a4f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.57c36a4f.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.71ced856.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.71ced856.js.map",
+    "main.css": "/Portfolio/static/css/main.6bfec5be.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8a5c572c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8a5c572c.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.2882ca04.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2882ca04.js.map",
     "static/css/2.68a81a89.chunk.css": "/Portfolio/static/css/2.68a81a89.chunk.css",
-    "static/js/2.33a0427d.chunk.js": "/Portfolio/static/js/2.33a0427d.chunk.js",
-    "static/js/2.33a0427d.chunk.js.map": "/Portfolio/static/js/2.33a0427d.chunk.js.map",
-    "static/js/3.31dd895a.chunk.js": "/Portfolio/static/js/3.31dd895a.chunk.js",
-    "static/js/3.31dd895a.chunk.js.map": "/Portfolio/static/js/3.31dd895a.chunk.js.map",
+    "static/js/2.cfa88695.chunk.js": "/Portfolio/static/js/2.cfa88695.chunk.js",
+    "static/js/2.cfa88695.chunk.js.map": "/Portfolio/static/js/2.cfa88695.chunk.js.map",
+    "static/js/3.5dd16bbc.chunk.js": "/Portfolio/static/js/3.5dd16bbc.chunk.js",
+    "static/js/3.5dd16bbc.chunk.js.map": "/Portfolio/static/js/3.5dd16bbc.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.487321663110395e82d45bf57dcbffa1.js": "/Portfolio/precache-manifest.487321663110395e82d45bf57dcbffa1.js",
+    "precache-manifest.537e5fea6fee2e61ad1d35e078002a27.js": "/Portfolio/precache-manifest.537e5fea6fee2e61ad1d35e078002a27.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.68a81a89.chunk.css.map": "/Portfolio/static/css/2.68a81a89.chunk.css.map",
-    "static/css/main.d559b057.chunk.css.map": "/Portfolio/static/css/main.d559b057.chunk.css.map",
-    "static/js/2.33a0427d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.33a0427d.chunk.js.LICENSE.txt",
+    "static/css/main.6bfec5be.chunk.css.map": "/Portfolio/static/css/main.6bfec5be.chunk.css.map",
+    "static/js/2.cfa88695.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.cfa88695.chunk.js.LICENSE.txt",
     "static/media/Aryan Gandhi Resume.pdf": "/Portfolio/static/media/Aryan Gandhi Resume.bfbf7efd.pdf",
     "static/media/profile_img.jpg": "/Portfolio/static/media/profile_img.7a714ef8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.71ced856.js",
+    "static/js/runtime-main.2882ca04.js",
     "static/css/2.68a81a89.chunk.css",
-    "static/js/2.33a0427d.chunk.js",
-    "static/css/main.d559b057.chunk.css",
-    "static/js/main.57c36a4f.chunk.js"
+    "static/js/2.cfa88695.chunk.js",
+    "static/css/main.6bfec5be.chunk.css",
+    "static/js/main.8a5c572c.chunk.js"
   ]
 }
