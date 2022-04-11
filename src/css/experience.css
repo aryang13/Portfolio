@@ -8,3 +8,99 @@
     padding: 2%;
     background-color: #2c98f0;
 }
+
+.experience-cards {
+    width: 70%;
+    align-self: center;
+    padding-top: 60px;
+}
+
+.card {
+    margin-bottom: 60px;
+}
+
+.role {
+    font-size: 1.25rem;
+    position: absolute;
+    right: 38px;
+    top: 35px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.job-image {
+    flex: 1;
+    padding-right: 5px;
+}
+
+.company-image {
+    width: 80%;
+}
+
+.company-title {
+    font-size: 20pt;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.company-title:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #2c98f0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.company-title:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.job-role {
+    font-size: 12pt;
+    font-family: "Quicksand", Arial, sans-serif;
+    padding-bottom: 5px;
+}
+
+.description {
+    padding-top: 10px;
+}
+
+.company-description {
+    color: grey;
+}
+
+.job-role {
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding: 10px;
+    line-height: 1.5;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    font-size: 85%;
+    color: #666;
+}

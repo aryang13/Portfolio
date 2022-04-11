@@ -3,7 +3,7 @@ import '../css/home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 import { IoIosArrowDown } from 'react-icons/io';
-import image from "../profile_img.jpg";
+import image from "../images/profile_img.jpg";
 import resume from "../Aryan Gandhi Resume.pdf"
 import { Waypoint } from 'react-waypoint';
 import { removeSelected, clickHandler } from '../functions';
@@ -26,7 +26,7 @@ export default class Home extends React.Component {
                                 <div className="text">
                                     I am Aryan Gandhi 
                                     <br/>
-                                    A <span> </span>
+                                    A <span className="changingText"> </span>
                                     <br/>
                                     <a href={resume} type="button" className="btn btn-outline-dark">
                                         <IoDocumentTextOutline className="icon"/>

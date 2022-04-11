@@ -7,6 +7,7 @@ import { GrGithub } from 'react-icons/gr';
 import { BsPersonFill } from 'react-icons/bs';
 import { FiTrendingUp } from 'react-icons/fi'
 import { MdWeb, MdOutlineContactPage } from 'react-icons/md';
+import { BsFillBarChartFill } from 'react-icons/bs'
 import { onClickList, clickHandler } from "./functions";
 import SmoothScroll from "smooth-scroll";
 
@@ -27,6 +28,12 @@ function SideNav() {
                     <div id="about_nav" className="listitem" onClick={onClickList.bind(this)}>
                         <BsPersonFill className="icon"/>
                         <label>About</label>
+                    </div> 
+                </div>
+                <div className="nav-item">
+                    <div id="skills_nav" className="listitem" onClick={onClickList.bind(this)} >
+                        <BsFillBarChartFill className="icon"/>
+                        <label>Skills</label>
                     </div> 
                 </div>
                 <div className="nav-item">

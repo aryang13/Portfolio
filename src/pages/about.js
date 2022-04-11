@@ -32,6 +32,7 @@ export default class About extends React.Component {
                         </div>
                     </div>
                 </Waypoint>
+                <br />
             </section>
         );
     }

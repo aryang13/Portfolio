@@ -45,7 +45,7 @@
     align-self: center;
 }
 
-span::before {
+.changingText::before {
     content: "developer";
     animation: animate infinite 7s;
     color: #2c98f0;
