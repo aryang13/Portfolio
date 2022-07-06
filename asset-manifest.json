@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ee42f1af.css",
-    "main.js": "/Portfolio/static/js/main.a6b00560.js",
+    "main.css": "/Portfolio/static/css/main.8160ab8e.css",
+    "main.js": "/Portfolio/static/js/main.6062c3f2.js",
     "static/js/787.edd59a96.chunk.js": "/Portfolio/static/js/787.edd59a96.chunk.js",
+    "static/media/emotionDetector.png": "/Portfolio/static/media/emotionDetector.15c1575beb9386e745a9.png",
+    "static/media/interviewScheduler.png": "/Portfolio/static/media/interviewScheduler.1c70a83c72b495a87042.png",
     "static/media/profile_img.jpg": "/Portfolio/static/media/profile_img.01954fe7907d22d37702.jpg",
     "static/media/Linux.png": "/Portfolio/static/media/Linux.8b8d77c52fc2c9d16902.png",
     "static/media/Quartus.png": "/Portfolio/static/media/Quartus.24964416cde2dd227cbd.png",
     "static/media/Jenkins.png": "/Portfolio/static/media/Jenkins.bac6ddc1dc1e387ae9ac.png",
+    "static/media/riscMachine.jpg": "/Portfolio/static/media/riscMachine.1902adfa1025aaea0c9b.jpg",
     "static/media/Redux.jpg": "/Portfolio/static/media/Redux.1b4bb5fceb01b19da59d.jpg",
-    "static/media/Aryan Gandhi Resume.pdf": "/Portfolio/static/media/Aryan Gandhi Resume.23b99eaa054ed8abde9e.pdf",
+    "static/media/Aryan Gandhi Resume.pdf": "/Portfolio/static/media/Aryan Gandhi Resume.397e278bb6a053faa687.pdf",
     "static/media/Matlab.png": "/Portfolio/static/media/Matlab.5821b44d86984c741c1b.png",
     "static/media/Node.png": "/Portfolio/static/media/Node.fc3bd1ec69d7a50e685a.png",
     "static/media/MS.png": "/Portfolio/static/media/MS.8248651a5094209a2dca.png",
-    "static/media/React.png": "/Portfolio/static/media/React.73dbb5bcec516da82694.png",
     "static/media/SAP.png": "/Portfolio/static/media/SAP.2edfce188720089695c8.png",
     "static/media/Python.png": "/Portfolio/static/media/Python.f0c9d64775aac23759fe.png",
     "static/media/PostGres.png": "/Portfolio/static/media/PostGres.fc7bbe8b1190c863aca8.png",
+    "static/media/imageProcessing.jpg": "/Portfolio/static/media/imageProcessing.74254c68188e959a34ea.jpg",
     "static/media/CSS.png": "/Portfolio/static/media/CSS.4e67641bb68b658d9b2b.png",
+    "static/media/graphDatatype.png": "/Portfolio/static/media/graphDatatype.1fe1fbdb01d2b8d08346.png",
+    "static/media/React.png": "/Portfolio/static/media/React.283bf42c605cfc49cf49.png",
+    "static/media/autonomousClaw.jpg": "/Portfolio/static/media/autonomousClaw.bc48e9e20caabcac8120.jpg",
     "static/media/C.png": "/Portfolio/static/media/C.bf0af88d24cd724c83bc.png",
     "static/media/GDSC.png": "/Portfolio/static/media/GDSC.be2627c72960097267df.png",
     "static/media/SQL.png": "/Portfolio/static/media/SQL.e7f2a4c60d4052c19ddb.png",
@@ -28,12 +34,12 @@
     "static/media/Verilog.png": "/Portfolio/static/media/Verilog.97db486a905fa17f8511.png",
     "static/media/JS.png": "/Portfolio/static/media/JS.266bd9fb2663dcc057b4.png",
     "index.html": "/Portfolio/index.html",
-    "main.ee42f1af.css.map": "/Portfolio/static/css/main.ee42f1af.css.map",
-    "main.a6b00560.js.map": "/Portfolio/static/js/main.a6b00560.js.map",
+    "main.8160ab8e.css.map": "/Portfolio/static/css/main.8160ab8e.css.map",
+    "main.6062c3f2.js.map": "/Portfolio/static/js/main.6062c3f2.js.map",
     "787.edd59a96.chunk.js.map": "/Portfolio/static/js/787.edd59a96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee42f1af.css",
-    "static/js/main.a6b00560.js"
+    "static/css/main.8160ab8e.css",
+    "static/js/main.6062c3f2.js"
   ]
 }
