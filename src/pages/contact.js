@@ -17,7 +17,7 @@ export default function Contact() {
                         <div className="form h-100 contact-wrap p-5">
                             <h3 className="text-center">Let's Talk</h3>
                             <br />
-                            <form className="mb-5" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeqDPr25d1BzHPL6Gl9BbUAPLdWoN_0sgKauz5O4eAe6BuNpQ/formResponse?" target="dummyframe">
+                            <form className="mb-5" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeqDPr25d1BzHPL6Gl9BbUAPLdWoN_0sgKauz5O4eAe6BuNpQ/formResponse?" target="submitted">
                                 <div className="row">
                                     <div className="col-md-6 form-group mb-3">
                                         <label className="col-form-label">Name</label>
@@ -47,8 +47,8 @@ export default function Contact() {
                                 </div>
                             </form>
                             <Iframe
-                                id="dummyframe"
-                                name="dummyframe"
+                                id="submitted"
+                                name="submitted"
                                 display="none"
                             />
                         </div>
