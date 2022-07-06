@@ -71,10 +71,3 @@ function SideNav() {
 }
 
 export default SideNav;
-
-/** 
- * TODOS:
- *      - Separate navbar components into separate file
- *      - change font of text
- *      - clean up UI (figure out colors and spacing, etc.)
-*/

@@ -233,4 +233,76 @@ export const skills = [
         ]
     }
 ]
+
+const projectImages = importAll(require.context('../images/projects', false, /\.(png|jpeg|svg|jpg)$/));
+
+export const projects = [
+    {
+        name: "Interview Scheduler", 
+        image: projectImages["interviewScheduler.png"],
+        link: "https://github.com/ubclaunchpad/lp-interview-scheduler",
+        description: "Designed and developed a web application to solve the problem of: \n How can we efficiently coordinate interview between an interviewee and multiple interviewers?",
+        accomplishments: [
+            "Developed a web application which allows for internal team leads to match their availabilities and book interviews",
+            "Implemented input and modification of availability, generation of unique links to book interview, and google calendar integration",
+            "Used React, Express.js, Typescript, Firebase, and Docker"
+        ],
+    },
+    {
+        name: "Emotion Detector and Song Suggester", 
+        image: projectImages["emotionDetector.png"],
+        link: "https://github.com/aryang13/Emotion-Detector-and-Song-Suggestor-Web-App",
+        description: "Web application that uses Machine learning to detects ones mood and provided a spotify playlist according to the inferred mood",
+        accomplishments: [
+            "Utilized machine learning tools and algorithms to infer the user's mood and produce a corresponding Spotify playlist",
+            "Programmed the web application using Django, HTML, CSS and JavaScript"
+        ],
+    },
+    {
+        name: "RISC Machine", 
+        image: projectImages["riscMachine.jpg"],
+        description: "Designed a a microprocessor designed to perform a small number of computer instructions",
+        accomplishments: [
+            "Designed and accomplished a 16-Bit instruction supported CPU on an FPGA Board DE1-SOC utilizing Verilog, Quartus, and ModelSim"
+        ],
+    },
+    {
+        name: "Graph Abstract Data Type", 
+        image: projectImages["graphDatatype.png"],
+        description: "Created a graph interface by simulating two graph representations and numerous algorithms, such as Breadth and Depth First Search",
+        accomplishments: [
+            "Implemented a graph interface using two different graph representation",
+            "Developed several algorithms, such as Breadth and Depth First Search",
+            "Utilized graph interface to mimic a similar interface used in social media"
+            
+        ],
+    },
+    {
+        name: "Image Processing", 
+        image: projectImages["imageProcessing.jpg"],
+        description: "Java program that can process images by performing various transformations to them",
+        accomplishments: [
+            "Coded an image processor using Java and IntelliJ IDE in order to perform a mirror, rotate, and green screen function",
+            "Constructed robust testing strategies using JUnit to ensure well-written code and branch coverage in addition to general correctness",
+        ],
+    },
+    {
+        name: "Simon Game", 
+        image: projectImages["simonGame.jpg"],
+        description: "Programmed simulation of an electronic game that tests short-term memory skill by remmebering which order the colours flash",
+        accomplishments: [
+            "Designed a memory game using C programming language and DAQ Simulator"
+        ],
+    },
+    {
+        name: "Autonomous Claw", 
+        image: projectImages["autonomousClaw.jpg"],
+        description: "Designed and constructed an autonomous robotic claw project using and Arduinos and reading the inputs on a servo motor and sonar sensor",
+        accomplishments: [
+            "Created Arduino code in C which communicated with a sonar sensor and servo motor, giving the claw its autonomous nature",
+            "Prototyped and manufactured metal claw using hand tools, optimizing its ability to collect a variety of objects",
+            "Collaborated in a team setting, organized meetings, followed strict deadlines, and presented claw through a professional poster",
+        ],
+    },
+]
     

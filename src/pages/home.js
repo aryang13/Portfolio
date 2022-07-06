@@ -47,11 +47,3 @@ export default class Home extends React.Component {
         );
     }
 }
-
-/**
- * TODO: 
- * 1. Draw out layout
- * 2. Fix font and placing of words
- * 3. clean up and link resume button to resume 
- * 4. Add background image/video
- */
